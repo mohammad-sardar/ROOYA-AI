@@ -7,8 +7,7 @@
 ##  Project Demonstration
 The video below shows the **ROO'YA Interface** in action, demonstrating real-time detection and the automated voice alert system:
 
-![Project Demo](رابط_الفيديو_هنا)
-
+![Project Demo](assets/demo.mp4)
 ---
 
 ##  Project Overview
