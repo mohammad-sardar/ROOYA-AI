@@ -1,55 +1,35 @@
 # ROO'YA (رؤية) - Smart Visual Assistance System 👁️
 
-**ROO'YA** is an AI-powered assistive technology designed to help visually impaired individuals navigate urban environments safely. The system identifies obstacles in real-time and provides immediate directional audio feedback.
+**ROO'YA** is an innovative AI-powered system designed to empower visually impaired individuals to navigate complex urban environments. It serves as a real-time "Visual Intelligence" dashboard, converting live visual data into clear, actionable audio cues.
 
 ---
 
-## 🎥 System Demonstration & Explanation
-
-Below is a demonstration of the system processing a complex urban environment at night.
+## 🎥 Project Demonstration
+The video below shows the **ROO'YA Interface** in action, demonstrating real-time detection and the automated voice alert system:
 
 ![Project Demo](رابط_الفيديو_هنا)
 
-### 🔍 What’s happening in this video?
-1. **Dynamic Environment Handling:** The system successfully identifies multiple "Persons" and "Cars" even under low-light conditions (Night-time).
-2. **Directional Awareness:** The model doesn't just detect objects; it analyzes their position to provide accurate spatial alerts (e.g., "Person on your Left").
-3. **Obstacle Prioritization:** The system is fine-tuned to focus on immediate paths, ensuring the user is warned about the most relevant obstacles first.
+---
+
+## 💡 Project Overview
+The **ROO'YA** project bridges the gap between AI technology and daily accessibility. The system is engineered to:
+* **Identify Hazards:** High-speed detection of pedestrians, vehicles, and common street obstacles.
+* **Directional Alerts:** Provides spatial audio feedback (Left, Right, Ahead) to help users orient themselves.
+* **Interactive Monitoring:** A dedicated dashboard for developers and testers to monitor system performance, latency, and detection logs.
+* **Smart Filtering:** Includes a cooldown mechanism to ensure that voice alerts remain clear and useful without overlapping.
 
 ---
 
-## ⚠️ IMPORTANT: Local Deployment
-> [!IMPORTANT]
-> **Privacy & Speed:** This system runs **ENTIRELY LOCAL**. It does not require an internet connection to process the camera feed or generate voice alerts. This ensures:
-> - **Zero Latency:** Immediate response essential for safety.
-> - **Privacy:** No data or video feed is ever uploaded to the cloud.
+## 🛠️ Technical Stack
+* **AI Core:** Custom-trained YOLO model (Optimized for urban detection).
+* **Frontend:** Interactive Web Dashboard (HTML5, CSS3, JS).
+* **Backend:** Python / Flask.
+* **Audio:** Offline Text-to-Speech (TTS) for instant response.
 
 ---
 
-## 🚀 Key Features
-
-* **Real-time Object Detection:** Powered by a custom-trained **YOLO** model.
-* **Intelligent Audio Feedback:** Features a "Cooldown Mechanism" to prevent overlapping voice alerts (no more "Per-Per-Person" stuttering).
-* **High Sensitivity:** Adjusted confidence thresholds (`conf=0.3`) to detect smaller objects like street poles and barriers.
-* **Multi-Class Support:** Specifically trained to recognize Pedestrians, Vehicles, and common Urban Obstacles.
-
----
-
-## 🛠️ Technical Overview
-
-### Model Training
-* **Dataset:** 1,754 curated images of diverse street scenes.
-* **Performance:** High precision verified via `Confusion Matrix` and `F1-Score` curves (available in the `results/` folder).
-
-### Tech Stack
-* **Language:** Python 3.x
-* **AI Engine:** Ultralytics YOLO
-* **Audio:** pyttsx3 (Offline Text-to-Speech)
-* **Backend:** Flask (for local stream handling)
-
----
-
-## ⚙️ Installation (Local Run)
-
-1. **Clone the repository:**
+## ⚙️ How to Run
+1. **Clone & Install:**
    ```bash
    git clone [https://github.com/yourusername/Rooya_Project.git](https://github.com/yourusername/Rooya_Project.git)
+   pip install ultralytics flask opencv-python flask-cors pyttsx3
