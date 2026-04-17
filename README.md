@@ -4,14 +4,14 @@
 
 ---
 
-## 🎥 Project Demonstration
+##  Project Demonstration
 The video below shows the **ROO'YA Interface** in action, demonstrating real-time detection and the automated voice alert system:
 
 ![Project Demo](رابط_الفيديو_هنا)
 
 ---
 
-## 💡 Project Overview
+##  Project Overview
 The **ROO'YA** project bridges the gap between AI technology and daily accessibility. The system is engineered to:
 * **Identify Hazards:** High-speed detection of pedestrians, vehicles, and common street obstacles.
 * **Directional Alerts:** Provides spatial audio feedback (Left, Right, Ahead) to help users orient themselves.
@@ -20,7 +20,7 @@ The **ROO'YA** project bridges the gap between AI technology and daily accessibi
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 * **AI Core:** Custom-trained YOLO model (Optimized for urban detection).
 * **Frontend:** Interactive Web Dashboard (HTML5, CSS3, JS).
 * **Backend:** Python / Flask.
@@ -28,7 +28,7 @@ The **ROO'YA** project bridges the gap between AI technology and daily accessibi
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 1. **Clone & Install:**
    ```bash
    git clone [https://github.com/yourusername/Rooya_Project.git](https://github.com/yourusername/Rooya_Project.git)
