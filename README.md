@@ -2,6 +2,9 @@
 
 Assistive Vision AI is a state-of-the-art application designed to assist visually impaired users by providing real-time object detection, hazard identification, and spoken alerts. The system utilizes advanced computer vision technology, powered by YOLOv8, to detect objects, estimate distances, and provide voice feedback to users about nearby hazards.
 
+## User Interface & Control
+![ROO'YA (رؤية) Dashboard](./screenshots/dashboard.png)
+
 ### Key Features:
 - **Live Detection Mode (LIVE Mode)**: The application continuously scans the user's environment in real-time, detecting potential obstacles or hazards using a live camera feed. It ensures that users receive constant, up-to-date hazard alerts.
   
@@ -47,8 +50,3 @@ Assistive Vision AI is a state-of-the-art application designed to assist visuall
 ### Watch the Application in Action
 To see the application live and how it performs, click the link below to watch the demo video of the system working in real-time.
 
-[Watch the video here](insert-your-video-link-here)
-
----
-
-![Assistive Vision AI Interface](insert-your-image-link-here)
